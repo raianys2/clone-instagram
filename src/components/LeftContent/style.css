@@ -1,0 +1,135 @@
+.LeftContent {
+  background-color: #fff;
+  width: 338px;
+  height: 100vh;
+  border-right: 1px solid var(--border);
+  padding: 8px 12px 20px 12px;
+  position: fixed;
+}
+
+.Menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.box-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85%;
+}
+
+.Menu {
+  width: 220px;
+  height: 755px;
+}
+
+.LeftContent li {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px;
+  margin: 4px 0px;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.LeftContent li svg, span{
+  cursor: pointer;
+}
+
+
+.icone {
+  display: flex;
+  align-items: center;
+}
+
+.Profile {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.espacamentoNavMenu {
+  padding-left: 16px;
+}
+
+.MenuLogo {
+  padding: 25px 12px 16px 12px;
+  margin-bottom: 19px;
+}
+
+.MenuLogo img {
+  display: block;
+}
+
+.MenuLogo svg {
+  display: none;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.imgprofile img {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.imgprofile {
+  display: flex;
+  font-size: 16px;
+}
+
+.imgprofile p {
+  font-size: 16px;
+  padding-left: 16px;
+}
+
+
+.MenuLogo img {
+  width: 103px;
+  cursor: pointer;
+}
+
+.Menu img {
+  object-fit: cover;
+}
+
+ 
+
+.LeftContent .more {
+  list-style: none;
+}
+
+@media (max-width: 1350px) {
+
+  .MenuLogo img {
+    display: none;
+  }
+  
+  .MenuLogo svg {
+    display: block;
+  }
+  
+  .imgprofile p {
+    display: none;
+  }
+  
+
+  #logo img {
+    display: none;
+  }
+
+  .LeftContent {
+    width: 72px;
+  }
+
+  .espacamentoNavMenu {
+    display: none;
+  }
+}

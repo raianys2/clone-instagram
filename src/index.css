@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.leftContent-Ghost {
+  width: 336px;
+}
+
+.mainContent {
+  display: flex;
+  margin: auto;
+  padding-top: 36px;
+
+}
+
+@media (max-width: 1350px) {
+  .leftContent-Ghost {
+    width: 72px;
+  }
+}

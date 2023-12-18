@@ -1,0 +1,122 @@
+.RightContent {
+  width: 383px;
+  height: 100vh;
+  padding-left: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.RightContent img {
+  cursor: pointer;
+}
+
+.yourProfile {
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+  padding: 8px 16px;
+}
+
+.yourProfile div div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yourProfile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.yourProfile div:nth-child(1) {
+  gap: 10px;
+}
+
+.visit {
+  align-items: center;
+  color: #0095f6;
+  cursor: pointer;
+}
+
+.visit p {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.visit p:hover {
+  color: black;
+}
+
+.yourProfile > div {
+  display: flex;
+}
+
+.yourProfile img {
+  width: 44px;
+  height: 44px;
+}
+
+.nameProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.nameProfile span:nth-child(2) {
+  color: #737373;
+}
+
+.suggestionSide {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 16px;
+  font-size: 14px;
+  color: #353535;
+}
+
+.suggestionSide span:nth-child(2) {
+  font-size: 12px;
+}
+
+.direitos {
+  margin-top: 25px;
+  font-size: 12px;
+  white-space: nowrap;
+  color: #c7c7c7;
+}
+
+.direitos ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  padding: 4px 16px;
+  gap: 5px;
+  list-style-type: none;
+  word-break: break-all;
+}
+
+.direitos ul li {
+  cursor: pointer;
+}
+
+.direitos ul li:hover {
+  text-decoration: underline;
+}
+
+.direitos div p {
+  padding: 4px 16px;
+  font-size: 12px;
+
+
+}
+
+
+@media (max-width: 1100px) {
+  .RightContent {
+    display: none;
+  }
+}

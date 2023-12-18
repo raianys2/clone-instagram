@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+   
+   * {
+        margin: 0px;
+        padding: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+
+        outline: 0;
+        border: 0;
+        background: none;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    :root {
+        --background-main: #f6f6f6;
+        --background: #fff;
+        --primary: #262626;
+        --secondary: #8e8e8e;
+        --tertiary: #c7c7c7;
+        --quartary: #0095f6;
+        --border: #dbdbdb;
+        --border-secondary: #efefef;
+    }
+
+    
+    .borda-img {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+    }
+    
+
+  
+    /* @media usada para resposivdidade 
+    @meida (max-widht: 800px) {
+        .LeftContent {
+            display: none 
+        }
+    } */
